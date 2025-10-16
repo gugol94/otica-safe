@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <rect width="256" height="256" rx="56" fill="#16A085"/>
+  <g transform="translate(32,64)">
+    <circle cx="56" cy="64" r="40" fill="#fff" fill-opacity="0.15"/>
+    <circle cx="136" cy="64" r="40" fill="#fff" fill-opacity="0.15"/>
+    <rect x="32" y="56" width="160" height="16" rx="8" fill="#ffffff" fill-opacity="0.9"/>
+    <circle cx="56" cy="64" r="24" fill="#ffffff"/>
+    <circle cx="136" cy="64" r="24" fill="#ffffff"/>
+    <circle cx="56" cy="64" r="12" fill="#16A085"/>
+    <circle cx="136" cy="64" r="12" fill="#16A085"/>
+  </g>
+  <text x="128" y="228" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#ffffff" font-weight="700">Óticas Safe</text>
+</svg>
