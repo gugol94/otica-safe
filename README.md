@@ -23,7 +23,7 @@ Site simples e responsivo (Bootstrap 5) inspirado no layout do MediNest. Ideal p
 
 A página usa [FormSubmit](https://formsubmit.co/) como exemplo. Para ativar:
 - Mude o `action` do `<form>` para `https://formsubmit.co/SEU_EMAIL`.
-- Opcional: adicione `<input type="hidden" name="_next" value="https://SEU_USUARIO.github.io/otica-safe/agradecimento.html">` para redirecionar.
+- Opcional: adicione `<input type="hidden" name="_next" value="https://gugol94.github.io/otica-safe/agradecimento.html">` para redirecionar.
 
 ## Publicando no GitHub Pages
 
@@ -41,7 +41,7 @@ Há duas formas. Recomendo via GitHub Actions (pipeline) abaixo:
 
 1. Crie o repositório `otica-safe` no GitHub e envie estes arquivos.
 2. No GitHub, vá em Settings > Pages > Branch: `main` (ou `master`) e pasta raiz `/`.
-3. Aguarde 1–2 minutos: a página estará em `https://SEU_USUARIO.github.io/otica-safe/`.
+3. Aguarde 1–2 minutos: a página estará em `https://gugol94.github.io/otica-safe/`.
 
 ## Desenvolvimento local
 
