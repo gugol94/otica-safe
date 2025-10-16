@@ -20,6 +20,12 @@ body {
   font-weight: 500;
 }
 
+/* Navbar brand logo sizes */
+.navbar-brand img {
+  width: 44px;
+  height: 44px;
+}
+
 .btn-brand {
   background: var(--brand);
   border-color: var(--brand);
@@ -102,4 +108,5 @@ footer { background: #fff; }
 /* Responsive tweaks */
 @media (min-width: 992px) {
   .hero-section { padding-top: 8rem; padding-bottom: 4rem; }
+  .navbar-brand img { width: 56px; height: 56px; }
 }
