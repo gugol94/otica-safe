@@ -16,14 +16,28 @@ body {
   color: var(--dark);
 }
 
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(180deg, #e7f7f3 0%, #f0faf7 100%) !important;
+  border-bottom: 1px solid rgba(22, 160, 133, 0.1);
+}
+
 .navbar .nav-link {
   font-weight: 500;
 }
 
-/* Navbar brand logo sizes */
+/* Navbar brand */
 .navbar-brand img {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
+}
+
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--dark);
+  letter-spacing: -0.02em;
 }
 
 .btn-brand {
@@ -109,4 +123,5 @@ footer { background: #fff; }
 @media (min-width: 992px) {
   .hero-section { padding-top: 8rem; padding-bottom: 4rem; }
   .navbar-brand img { width: 56px; height: 56px; }
+  .brand-name { font-size: 1.75rem; }
 }

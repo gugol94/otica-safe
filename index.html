@@ -27,16 +27,20 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm py-3 bg-white">
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm py-3">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="#top">
           <img src="assets/img/logo.jpeg" alt="Óticas Safe" />
-          <span class="fw-bold">Óticas Safe</span>
+          <span class="brand-name">Óticas Safe</span>
         </a>
         <button
           class="navbar-toggler"
@@ -61,40 +65,37 @@
       </div>
     </nav>
 
-    <!-- Hero -->
-    <header id="top" class="hero-section position-relative overflow-hidden">
-      <div class="container position-relative">
-        <div class="row align-items-center py-5 py-lg-6">
+    <!-- Promoção -->
+    <section id="top" class="py-6 bg-brand-subtle" style="padding-top: 7rem !important;">
+      <div class="container">
+        <div class="row align-items-center g-5">
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold mb-3">Cuidamos da sua visão com carinho e qualidade</h1>
-            <p class="lead text-secondary mb-4">
-              Exame de vista gratuito, armação cortesia na compra das lentes corretivas e preços que cabem no seu bolso.
+            <img src="assets/img/otica-atendimento.jpeg" class="img-fluid rounded shadow-sm" alt="Atendimento na Óticas Safe" />
+          </div>
+          <div class="col-lg-6">
+            <div class="promo-badge mb-3"><span class="me-2">✨</span>PROJETO EXAME DE VISTA GRATUITO – ÓTICAS SAFE 👓</div>
+            <p>
+              A Óticas Safe tem o prazer de trazer até você um exame de vista totalmente gratuito, realizado por um especialista formado e com muitos anos de experiência na área da saúde visual. Nossa missão é cuidar da visão dos moradores do condomínio com conforto, confiança e qualidade.
+            </p>
+            <p>
+              Durante o evento, você poderá realizar sua avaliação visual sem custo e, caso precise de óculos, oferecemos uma armação totalmente cortesia na compra das lentes corretivas. 💚
+            </p>
+            <p>
+              Além disso, garantimos preços muito mais acessíveis que nas óticas convencionais, sem abrir mão da qualidade. Todos os nossos produtos contam com garantia total, porque acreditamos que cuidar bem da sua visão é o que realmente importa.
+            </p>
+            <p>
+              👁️ Venha participar!<br />
+              Cuide da sua visão com quem entende do assunto.<br />
+              Óticas Safe – Saúde visual com confiança e economia.
             </p>
             <div class="d-flex gap-3">
-              <a href="#contato" class="btn btn-brand btn-lg"><i class="bi bi-calendar2-check me-2"></i>Agendar avaliação</a>
-              <a href="#exames" class="btn btn-outline-brand btn-lg">Saiba mais</a>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-5 mt-lg-0">
-            <div class="hero-card card border-0 shadow-lg">
-              <div class="ratio ratio-4x3 bg-light rounded-top">
-                <img src="assets/img/prateleira.jpeg" class="object-fit-cover rounded-top" alt="Óculos e prateleiras na Óticas Safe" />
-              </div>
-              <div class="card-body">
-                <div class="d-flex align-items-center gap-3">
-                  <i class="bi bi-shield-check text-brand fs-3"></i>
-                  <div>
-                    <h5 class="mb-1">Garantia total</h5>
-                    <p class="mb-0 text-secondary small">Qualidade e confiança em cada detalhe.</p>
-                  </div>
-                </div>
-              </div>
+              <a href="#contato" class="btn btn-brand btn-lg"><i class="bi bi-whatsapp me-2"></i>Quero participar</a>
+              <a href="#galeria" class="btn btn-outline-brand btn-lg">Ver fotos</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="hero-bg-shape"></div>
-    </header>
+    </section>
 
     <!-- Exames -->
     <section id="exames" class="py-6">
@@ -138,37 +139,40 @@
       </div>
     </section>
 
-    <!-- Promoção -->
-    <section id="promocao" class="py-6 bg-brand-subtle">
-      <div class="container">
-        <div class="row align-items-center g-5">
+    <!-- Hero -->
+    <header id="promocao" class="hero-section position-relative overflow-hidden">
+      <div class="container position-relative">
+        <div class="row align-items-center py-5 py-lg-6">
           <div class="col-lg-6">
-            <img src="assets/img/otica-atendimento.jpeg" class="img-fluid rounded shadow-sm" alt="Atendimento na Óticas Safe" />
-          </div>
-          <div class="col-lg-6">
-            <div class="promo-badge mb-3"><span class="me-2">✨</span>PROJETO EXAME DE VISTA GRATUITO – ÓTICAS SAFE 👓</div>
-            <p>
-              A Óticas Safe tem o prazer de trazer até você um exame de vista totalmente gratuito, realizado por um especialista formado e com muitos anos de experiência na área da saúde visual. Nossa missão é cuidar da visão dos moradores do condomínio com conforto, confiança e qualidade.
-            </p>
-            <p>
-              Durante o evento, você poderá realizar sua avaliação visual sem custo e, caso precise de óculos, oferecemos uma armação totalmente cortesia na compra das lentes corretivas. 💚
-            </p>
-            <p>
-              Além disso, garantimos preços muito mais acessíveis que nas óticas convencionais, sem abrir mão da qualidade. Todos os nossos produtos contam com garantia total, porque acreditamos que cuidar bem da sua visão é o que realmente importa.
-            </p>
-            <p>
-              👁️ Venha participar!<br />
-              Cuide da sua visão com quem entende do assunto.<br />
-              Óticas Safe – Saúde visual com confiança e economia.
+            <h1 class="display-5 fw-bold mb-3">Cuidamos da sua visão com carinho e qualidade</h1>
+            <p class="lead text-secondary mb-4">
+              Exame de vista gratuito, armação cortesia na compra das lentes corretivas e preços que cabem no seu bolso.
             </p>
             <div class="d-flex gap-3">
-              <a href="#contato" class="btn btn-brand btn-lg"><i class="bi bi-whatsapp me-2"></i>Quero participar</a>
-              <a href="#galeria" class="btn btn-outline-brand btn-lg">Ver fotos</a>
+              <a href="#contato" class="btn btn-brand btn-lg"><i class="bi bi-calendar2-check me-2"></i>Agendar avaliação</a>
+              <a href="#exames" class="btn btn-outline-brand btn-lg">Saiba mais</a>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="hero-card card border-0 shadow-lg">
+              <div class="ratio ratio-4x3 bg-light rounded-top">
+                <img src="assets/img/prateleira.jpeg" class="object-fit-cover rounded-top" alt="Óculos e prateleiras na Óticas Safe" />
+              </div>
+              <div class="card-body">
+                <div class="d-flex align-items-center gap-3">
+                  <i class="bi bi-shield-check text-brand fs-3"></i>
+                  <div>
+                    <h5 class="mb-1">Garantia total</h5>
+                    <p class="mb-0 text-secondary small">Qualidade e confiança em cada detalhe.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="hero-bg-shape"></div>
+    </header>
 
     <!-- Galeria -->
     <section id="galeria" class="py-6">
@@ -182,17 +186,23 @@
         <div class="row g-4">
           <div class="col-6 col-md-4">
             <a href="assets/img/prateleira.jpeg" class="gallery-item">
-              <img src="assets/img/prateleira.jpeg" class="img-fluid rounded" alt="Prateleiras com armações" />
+              <div class="ratio ratio-4x3">
+                <img src="assets/img/prateleira.jpeg" class="img-fluid rounded object-fit-cover" alt="Prateleiras com armações" />
+              </div>
             </a>
           </div>
           <div class="col-6 col-md-4">
             <a href="assets/img/otica-atendimento.jpeg" class="gallery-item">
-              <img src="assets/img/otica-atendimento.jpeg" class="img-fluid rounded" alt="Atendimento especializado" />
+              <div class="ratio ratio-4x3">
+                <img src="assets/img/otica-atendimento.jpeg" class="img-fluid rounded object-fit-cover" alt="Atendimento especializado" />
+              </div>
             </a>
           </div>
           <div class="col-6 col-md-4">
             <a href="assets/img/exame.jpeg" class="gallery-item">
-              <img src="assets/img/exame.jpeg" class="img-fluid rounded" alt="Exame de vista" />
+              <div class="ratio ratio-4x3">
+                <img src="assets/img/exame.jpeg" class="img-fluid rounded object-fit-cover" alt="Exame de vista" />
+              </div>
             </a>
           </div>
           <div class="col-6 col-md-4">
@@ -231,7 +241,7 @@
                   <i class="bi bi-geo-alt text-brand fs-3"></i>
                   <div>
                     <h6 class="mb-1">Local</h6>
-                    <p class="mb-0"><a class="link-body-emphasis" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Rua%20Euclides%20da%20Cunha%2C%20257%2C%20Vila%20Regina%2C%20Osasco%20SP%2C%2006016-030%2C%20Brasil">Rua Euclides da Cunha, 257, Vila Regina, Osasco SP, 06016-030, Brasil</a></p>
+                    <p class="mb-0"><a class="link-body-emphasis" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/5xwZmmWSwm5G9bkm6">R. Euclídes da Cunha, 257 - Centro, Osasco - SP, 06016-030</a></p>
                   </div>
                 </div>
                 <div class="d-flex align-items-start gap-3 mb-3">
