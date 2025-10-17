@@ -24,13 +24,17 @@ Você precisa adicionar os seguintes registros:
 
 #### Para usar `www.oticasafe.com.br` (recomendado):
 
-| Tipo  | Nome/Host | Valor/Destino                      | TTL   |
-|-------|-----------|-------------------------------------|-------|
-| CNAME | www       | gugol94.github.io.                 | 3600  |
-| A     | @         | 185.199.108.153                    | 3600  |
-| A     | @         | 185.199.109.153                    | 3600  |
-| A     | @         | 185.199.110.153                    | 3600  |
-| A     | @         | 185.199.111.153                    | 3600  |
+| Tipo  | Nome/Host              | Valor/Destino                      | TTL   |
+|-------|------------------------|-------------------------------------|-------|
+| CNAME | www                    | gugol94.github.io.                 | 3600  |
+| A     | oticasafe.com.br       | 185.199.108.153                    | 3600  |
+| A     | oticasafe.com.br       | 185.199.109.153                    | 3600  |
+| A     | oticasafe.com.br       | 185.199.110.153                    | 3600  |
+| A     | oticasafe.com.br       | 185.199.111.153                    | 3600  |
+
+**⚠️ IMPORTANTE para Registro.br**: 
+- Use o **nome completo do domínio** (`oticasafe.com.br`) nos registros A, NÃO use `@`
+- Para o CNAME, use apenas `www` (sem o domínio completo)
 
 #### Ou para usar apenas `oticasafe.com.br` (sem www):
 
@@ -38,10 +42,11 @@ Neste caso, altere o arquivo `CNAME` para conter apenas `oticasafe.com.br` (sem 
 
 ### 1.3 Detalhes importantes
 
-- **CNAME**: Aponta o subdomínio `www` para o GitHub Pages
-- **Registros A**: Apontam o domínio raiz (`@`) para os servidores do GitHub
+- **CNAME**: Aponte o subdomínio `www` para o GitHub Pages (use apenas `www` no campo Nome/Host)
+- **Registros A**: Apontam o domínio raiz para os servidores do GitHub (use o nome completo `oticasafe.com.br` no campo Nome/Host)
 - **TTL**: Tempo de cache (3600 segundos = 1 hora)
 - **Não esqueça o ponto final**: `gugol94.github.io.` (com ponto no final)
+- **⚠️ Registro.br não aceita `@`**: Use sempre o nome completo do domínio nos registros A
 
 ### 1.4 Remover registros conflitantes (se existirem)
 
