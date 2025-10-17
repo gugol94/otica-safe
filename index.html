@@ -272,7 +272,7 @@
             <div class="card h-100 shadow-sm">
               <div class="card-body p-4">
                 <h5 class="mb-3">Envie uma mensagem</h5>
-                <form action="https://formsubmit.co" method="POST" class="row g-3">
+                <form action="https://formsubmit.co/guugool1@gmail.com" method="POST" class="row g-3">
                   <div class="col-md-6">
                     <label class="form-label" for="nome">Nome</label>
                     <input id="nome" name="nome" class="form-control" type="text" required />
@@ -288,11 +288,14 @@
                   <div class="col-12">
                     <button class="btn btn-brand w-100" type="submit"><i class="bi bi-send me-2"></i>Enviar</button>
                   </div>
-                  <!-- FormSubmit hidden fields (configure seu e-mail depois) -->
+                  <!-- FormSubmit hidden fields -->
                   <input type="hidden" name="_subject" value="Novo contato — Óticas Safe" />
                   <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_template" value="box" />
+                  <input type="text" name="_honey" class="d-none" tabindex="-1" autocomplete="off" />
+                  <input type="hidden" name="_next" value="https://www.oticasafe.com.br/agradecimento.html" />
                 </form>
-                <p class="small text-secondary mt-3">Dica: você pode integrar rapidamente com <a href="https://formsubmit.co/" target="_blank" rel="noopener">FormSubmit</a> sem backend. Depois atualize o action com seu e‑mail.</p>
+                
               </div>
             </div>
           </div>
